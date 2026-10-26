@@ -1,0 +1,32 @@
+# Compiled executables
+/smartmesh
+/smartmesh-*
+/aodv-*
+/queue-test
+/smoke-test
+/netanim
+
+# Compiled objects and libraries
+*.o
+*.a
+*.dylib
+*.so
+
+# Generated network traces and large simulation outputs
+results/**/*.pcap
+results/**/*.log
+results/**/*.xml
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Historical and incomplete source backups
+/src/*before*
+/src/*broken-backup*
+/src/*draft*
+/src/*.bak
+/src/*.o
